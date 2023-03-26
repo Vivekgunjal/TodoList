@@ -151,7 +151,7 @@ namespace TodoList
                 }
                 finally
                 {
-                    connection.Close();
+                    connection.Close(); 
                 }
             }
         }
